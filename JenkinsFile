@@ -1,6 +1,6 @@
 node {
 	stage('SCM Checkout'){
-		git 'https://github.com/andrestwm/test'
+		git 'https://github.com/andrestwm/Calculator'
 	}
 	stage('Compile-Package'){
 		sh 'mvn package'
